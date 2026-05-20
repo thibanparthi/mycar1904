@@ -22,4 +22,4 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./build s3://home1435 --deletem
+          aws s3 sync ./build s3://home1435 --delete
